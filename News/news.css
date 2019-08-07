@@ -1,0 +1,106 @@
+/* body{
+    background: maroon;  
+}
+header{
+    color: black;
+    text-align: center;
+    font-family: cursive, fantasy;
+font-size: 50px
+}
+
+\hr{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    
+}
+
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    text-align: center;
+  }
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: black;
+    color: white;
+  }
+  
+
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+    
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+#manyWatches{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 540px;
+
+
+}
+h2{
+    display: block;  
+    border-color: RGB(0,0,58);
+    margin-right: 100px;
+    
+}
+.text{
+   background-color:RGB(0,0,0);
+    border: 3px solid black;
+    border-style: solid;
+    border-radius: 13px;
+    text-align: center;
+    color: white; 
+    margin-top: 10px
+    
+}
+.watch_description{
+    text-align: justify;
+    margin-right:5px;
+}
+
+#Quotes{
+    text-align: center;
+    color: black;
+    font-size: 20px 
+    font-weight: bold;
+} 
+
+hr{
+    border: 3px solid black;  
+}
+
+
+
+a{
+    transition-duration: 1s;
+ }
+ 
+ 
+ a:hover{
+     transition-duration: 1s;
+     transform: scale(2)
+ } */
