@@ -53,19 +53,6 @@ hr{
     font-size: 17px;
 }
 
-h3{
-    text-align: center;
-    color: white;
-    
-}
-#manyWatches{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 540px;
-
-
-}
 h2{
     display: block;  
     border-color: RGB(0,0,58);
@@ -91,7 +78,7 @@ h2{
   font-weight: bolder;
     text-align: center;
     color: RGB(0,0,0);
-    font-size: 20px 
+    font-size: 20px;
 
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid black; /* The typwriter cursor */
@@ -113,14 +100,43 @@ h2{
   @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: black; }
-  }
-} 
-} 
+  } 
 
 hr{
     border: 3px solid black 
 }
 
+
+#tree{
+  width: 50%;
+  border-right: 10px solid black;
+  border-left: 10px solid black;
+  text-align: center;
+  max-width: 500px;
+  max-height: 500px;
+  margin: 0 auto;
+  display: block;
+}
+
+#front_img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+
+}
+
+#left{
+  font-weight: bolder;
+  width: 50%;
+  text-align: left;
+  color: RGB(0,0,0);
+  font-size: 20px 
+}
+ #colombia_left{
+  text-decoration: none;
+  color: black;
+}
 
   a{
     transition-duration: 1s;

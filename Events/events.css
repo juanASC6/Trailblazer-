@@ -13,8 +13,9 @@ font-size: 50px;
 }
 
 hr{
+    border-color: RGB(0,0,0);
     display: block;
-    margin-top: 0.5em;
+    margin-top: 0.10em;
     margin-bottom: 0.5em;
     margin-left: auto;
     margin-right: auto;

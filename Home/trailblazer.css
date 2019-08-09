@@ -1,5 +1,5 @@
 body{
-    background: maroon;;
+    background: maroon;
 }
 header{
     color: black  ;
@@ -21,7 +21,6 @@ hr{
     margin-right: auto;
     border-style: inset;
     border-width: 1px;
-    
 }
 
 
@@ -59,12 +58,6 @@ hr{
 }
 
 
-h2{
-    display: block;  
-    border-color: RGB(0,0,58);
-    margin-right: 100px;
-    
-}
 .text{
    background-color:RGB(0,0,0);
     border: 3px solid white;
@@ -109,20 +102,15 @@ hr{
     border: 3px solid black ;
 }
 
-
-#front_img{
-    display: inline-flex;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 footer p{
     text-align: center;
     display: block;
 }
 
- #tree{
-    width: 50%;
+
+#img1{
+    width: 100%;
+    float: center;
     border-right: 10px solid black;
     border-left: 10px solid black;
     text-align: center;
@@ -131,28 +119,83 @@ footer p{
     display: block;
  }
 
- #center{
-    text-align: center;
-      color: RGB(0,0,0);
-      font-size: 50px 
-      font-weight: bold;
+#img2{
+  width: 100%;
+  float: center;
+  border-right: 10px solid black;
+  border-left: 10px solid black;
+  text-align: center;
+  max-width: 500px;
+  max-height: 500px;
+  display: block;
+}
+
+#img3{
+  width: 100%;
+  float: center;
+  border-right: 10px solid black;
+  border-left: 10px solid black;
+  text-align: center;
+  max-width: 500px;
+  max-height: 500px;
+  display: block;
+}
+
+#top_headline{
+    display: inline-flex;
+    text-align: right;
+    
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#left1{
+  font-weight: bolder;
+  width: 30%;
+  justify-content: flex-start;
+  text-align: left;
+  color: RGB(0,0,0);
+  font-size: 20px; 
   }
 
-  #left{
-    width: 30%;
-    text-align: left;
-    color: RGB(0,0,0);
-    font-size: 50px 
-      font-weight: bold;
-  }
+#center_headline{
+   display: inline-flex;
+   text-align: right;
+   
+   width: 70%;
+   margin-left: auto;
+   margin-right: auto; 
+}
+
+
+#bottom_headline{
+  display: inline-flex;
+  text-align: right;
+  
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+#left3{
+  font-weight: bolder;
+  width: 30%;
+  justify-content: flex-start;
+  text-align: left;
+  color: RGB(0,0,0);
+  font-size: 20px; 
+  }  
+
   #right{
+    font-weight: bold;
+    width: 50%;
     text-align: right;
       color: RGB(0,0,0);
-      font-size: 50px 
-      font-weight: bold;
+      font-size: 20px;
   }
 
-  # {
+  
    
 
 
