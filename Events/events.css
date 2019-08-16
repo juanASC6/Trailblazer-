@@ -2,7 +2,7 @@ body{
     background: maroon; 
 }
 header{
-    color: black ;
+    color: rgb(248, 218, 83);
     text-align: center;
     font-family: cursive, fantasy;
 font-size: 50px;
@@ -36,6 +36,7 @@ hr{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    margin: 0px 10px 0px;
     font-size: 17px;
   }
   .topnav a:hover {
@@ -54,7 +55,6 @@ hr{
     padding: 6px;
     border: none;
     margin-top: 8px;
-    margin-right: 16px;
     font-size: 17px;
 }
 
@@ -101,7 +101,7 @@ h2{
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid black; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    margin: 1em auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .10em; /* Adjust as needed */
     animation: 
       typing 5.5s steps(40, end),
@@ -119,20 +119,19 @@ h2{
     from, to { border-color: transparent }
     50% { border-color: black; }
   }
-} 
+
 
 hr{
     border: 3px solid black ;
 }
 
-
-#front_img{
-    width: 100%;  
-}
-
 footer p{
     text-align: center;
     display: block;
+}
+
+#front_img{
+    width: 100%;  
 }
 
  #tree{
@@ -156,4 +155,10 @@ a{
  a:hover{
      transition-duration: 1s;
      transform: scale(2)
- }
+}
+
+.sampleText{
+    text-align: center;
+    font-size: 35px;
+    margin: 0px 15px 15px;
+}

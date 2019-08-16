@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+    </style>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TrailBlazer</title>
+    <link rel="stylesheet" href="register.css">
+    <script src="register.js" defer></script>
+
+    <!--Go to https://console.firebase.google.com-->
+    <!--Sign in and add a project "fireMessage"-->
+    <!--PASTE SNIPPET HERE-->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-database.js"></script>
+
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+     <script>
+            // Your web app's Firebase configuration
+            var firebaseConfig = {
+              apiKey: "AIzaSyCx5Sfnpusuz2nkkfrNFn_rolCPB57EISk",
+              authDomain: "email-registry.firebaseapp.com",
+              databaseURL: "https://email-registry.firebaseio.com",
+              projectId: "email-registry",
+              storageBucket: "",
+              messagingSenderId: "640740564419",
+              appId: "1:640740564419:web:16f3ae00f717a7c1"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+          </script>
+</head>
+
+<body>
+    <div class="top">
+        <header>
+            The TRAILBLAZER
+        </header>
+    </div>
+    <iframe src="http://free.timeanddate.com/clock/i6vp2jp9/n179/fcfff/tc000/pc900/ftb/tt1" frameborder="0" width="217"
+        height="18"></iframe>
+
+
+    <div class="topnav">
+        <a href="../index.html">Home</a>
+        <a href="../Music/music.html">Music</a>
+        <a href="../Sports/sports.html">Sports</a>
+        <a href="../Arts/arts.html">Arts</a>
+        <a href="../Culture/culture.html">Culture</a>
+        <a href="../Events/events.html">Events</a>
+        <input type="text" placeholder="Search..">
+    </div>
+
+    <p id="Quotes">Register into our mailing database!</p>
+
+    <hr>
+    <div class="Registration">
+        <h4>Type in your email below and press submit to receive emails relating to Trailblazer or having recent articles from Trailblazer!</h4>
+        <input id="email" type="text">
+        <button id="register">Submit</button>
+    </div>
+    <hr>
+
+    <footer>
+        <p> Copyright © 2019 TrailBlazer J.K Tech | All rights reserved </p>
+        <p> Contact: J - juan.tenesaca2021@rencharter.org | K - kirannarine131@gmail.com </p>
+    </footer>
+</body>
+
+
+
+</html>

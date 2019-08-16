@@ -2,10 +2,10 @@ body{
     background: maroon;
 }
 header{
-    color: black ;
+    color: rgb(248, 218, 83);
     text-align: center;
     font-family: cursive, fantasy;
-font-size: 50px
+    font-size: 50px
 }
 
 hr{
@@ -31,6 +31,7 @@ hr{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    margin: 0px 10px 0px;
     font-size: 17px;
   }
   .topnav a:hover {
@@ -49,7 +50,6 @@ hr{
     padding: 6px;
     border: none;
     margin-top: 8px;
-    margin-right: 16px;
     font-size: 17px;
 }
 
@@ -59,20 +59,7 @@ h2{
     margin-right: 100px;
     
 }
-.text{
-   background-color:RGB(0,0,0);
-    border: 3px solid white;
-    border-style: solid;
-    border-radius: 13px;
-    text-align: center;
-    color: white; 
-    margin-top: 10px
-    
-}
-.watch_description{
-    text-align: justify;
-    margin-right:5px;
-}
+
 
 #Quotes{
   font-weight: bolder;
@@ -83,7 +70,7 @@ h2{
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid black; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    margin: 1em auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .10em; /* Adjust as needed */
     animation: 
       typing 5.5s steps(40, end),
@@ -106,9 +93,13 @@ hr{
     border: 3px solid black 
 }
 
+footer p{
+  text-align: center;
+  display: block;
+}
 
 #tree{
-  width: 50%;
+  width: 700%;
   border-right: 10px solid black;
   border-left: 10px solid black;
   text-align: center;
@@ -119,10 +110,14 @@ hr{
 }
 
 #front_img{
-  display: block;
+  display: inline-flex;
+  text-align: left;
+  justify-content: space-around;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
-  color: black;
+  /* 
+  color: black; */
 
 }
 
@@ -138,6 +133,38 @@ hr{
   color: black;
 }
 
+#left1{
+  font-weight: bolder;
+  text-decoration: none;
+  justify-content: flex-start;
+  text-align: left;
+  color: RGB(0,0,0);
+  display: inline-flex;
+   }
+  
+   #list1 li{
+    list-style-type: none;
+  margin-left: 0%;
+   }
+    
+    #list1 li h4{
+      font-size: 25px; 
+    }
+  
+    #list1 li a{
+      text-decoration: none;
+      color: RGB(0,0,0);
+      font-size: 35px; 
+  }
+  
+  
+  
+  #right1{
+  font-size: 25px;
+  list-style-type: circle;
+  line-break: auto;
+  }
+
   a{
     transition-duration: 1s;
  }
@@ -146,4 +173,12 @@ hr{
  a:hover{
      transition-duration: 1s;
      transform: scale(2)
- }
+}
+
+#img1{
+  border-right: 10px solid black;
+  border-left: 10px solid black;
+  width: 700%;
+  max-width: 500px;
+  max-height: 500px;
+}
