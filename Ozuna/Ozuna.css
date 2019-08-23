@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(56, 180, 221);
+}
+header{
+    color: black ;
+    text-align: center;
+    font-family: cursive, fantasy;
+    font-size: 50px;
+}
+
+hr{
+    border-color: black;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.text{
+    background-color:RGB(0,0,0);
+     border: 3px solid rgb(0, 0, 0);
+     border-style: solid;
+     border-radius: 13px;
+     text-align: center;
+     color: white; 
+     margin-top: 10px;  
+ }
+
+ Music{
+    text-decoration: none;
+    color: black;
+  }
+
+#article h1{
+    text-align: center;
+ }
+
+ p {
+   margin-left: 450px;
+   margin-right: 450px;  
+ }
+ .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
